@@ -166,6 +166,15 @@ const [endDate, setEndDate] = useState(new Date());
          </div>
 
          <div className="mainpage-input">
+        <select  className="input-feild attendees" onChange={(e)=>{setTraining(e.target.value)}}>
+        <option value="" disabled selected hidden>Training</option>
+                                                    <option value="Mandatory"></option>
+                                                    <option value="optional"></option>
+                                                    <option value="Host"></option>
+                                                </select>
+      </div>
+
+         <div className="mainpage-input">
           <input className="input-feild" type="text" placeholder="Topic" value={Topic} onChange={(e)=>{setTopic(e.target.value)}}/>
          </div>
 
@@ -248,14 +257,7 @@ const [endDate, setEndDate] = useState(new Date());
                                                 </select>
       </div>
 
-      <div className="mainpage-input">
-        <select  className="input-feild attendees" onChange={(e)=>{setTraining(e.target.value)}}>
-        <option value="" disabled selected hidden>Training</option>
-                                                    <option value="Mandatory"></option>
-                                                    <option value="optional"></option>
-                                                    <option value="Host"></option>
-                                                </select>
-      </div>
+      
 
       <div className="mainpage-input">
         <select  className="input-feild attendees" onChange={(e)=>{setLocation(e.target.value)}}>

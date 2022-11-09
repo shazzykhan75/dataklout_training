@@ -1,0 +1,13 @@
+select.salutationInput {
+  width: 70px;
+  margin-right: 10px;
+}
+
+input.firstNameInput {
+  width: 390px !important;
+  margin-left: 10px;
+}
+
+p.errorColor {
+  color: red;
+}

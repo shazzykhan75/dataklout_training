@@ -1,0 +1,47 @@
+.dataRow:hover {
+  background: rgb(232, 232, 232);
+}
+
+.sendButton {
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  background: #1f4185;
+  color: #f3f3f3;
+  font-size: 25px;
+  border-radius: 4px;
+  padding: 6px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sendButton:hover {
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  background: #df643a;
+  color: #f3f3f3;
+  font-size: 25px;
+  border-radius: 4px;
+  padding: 6px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.my-masonry-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -3px;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 3px;
+  background-clip: padding-box;
+}
+
+.my-masonry-grid_column > div {
+  margin-bottom: 3px;
+}

@@ -1,0 +1,9 @@
+.secondary-menu li a {
+  letter-spacing: 0.095em;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  padding: 10px 15px 10px 22px;
+  display: inline-block;
+  transition: all 0.4s ease-in-out;
+}

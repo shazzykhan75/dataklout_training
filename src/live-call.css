@@ -1,0 +1,77 @@
+.white-box-global-liveCallInsight {
+  min-height: 685px !important;
+}
+.insights-box1-liveCallInsight {
+  min-height: 320px !important;
+  margin-bottom: 30px !important;
+}
+.insights-box2-liveCallInsight {
+  min-height: 250px !important;
+  margin-bottom: 0;
+}
+.liveCall-select {
+  min-width: 178px;
+  display: block;
+}
+.liveCall-label {
+  margin-top: 10px;
+}
+
+.bubbleWrapper {
+  padding: 1px 1px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-self: flex-end;
+  color: rgb(30, 14, 14);
+}
+.inlineContainer {
+  display: inline-flex;
+}
+.inlineContainer.own {
+  flex-direction: row-reverse;
+}
+.inlineIcon {
+  width: 20px;
+  object-fit: contain;
+}
+.ownBubble {
+  min-width: 60px;
+  max-width: 700px;
+  padding: 14px 18px;
+  margin: 6px 8px;
+  background-color: #c74913;
+  border-radius: 16px 16px 0 16px;
+  border: 1px solid #443f56;
+}
+.otherBubble {
+  min-width: 120px;
+  max-width: 700px;
+  padding: 14px 18px;
+  margin: 2px 2px;
+  /* background-color: #fff; */
+  /* border-radius: 16px 16px 16px 0; */
+  /* border: 1px solid #ffffff; */
+  font-size: 20px;
+}
+.own {
+  align-self: flex-end;
+}
+.other {
+  align-self: flex-start;
+}
+span.own,
+span.other {
+  font-size: 20px;
+  color: grey;
+}
+
+.top-keywords-box-header {
+  padding: 0px 20px 0 10px;
+}
+
+.insights-box-header h4 {
+  padding: 10px 20px 0 20px !important;
+  color: #333333 !important;
+  font-size: 20px !important;
+}

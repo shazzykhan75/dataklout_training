@@ -1,0 +1,7 @@
+.side-panel {
+  width: 444px !important;
+}
+
+.call-table {
+  width: calc(100% - 444px);
+}

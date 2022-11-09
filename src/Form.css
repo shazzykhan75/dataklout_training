@@ -1,0 +1,193 @@
+body {
+    background-color: #f5f5f5;
+    height: 140vh;
+  }
+  
+  .mainpage {
+    padding: 0px 20px;
+    padding-top: 20px;
+    /* box-shadow: unset;
+    background: transparent; */
+  }
+  .m-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+  }
+  
+  .meeting-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-save {
+    margin-right: 10px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #5b5bd2;
+    border: none;
+    border-radius: 10%;
+  }
+  
+  .btn-close {
+    padding: 9px 30px;
+    border-radius: 10%;
+  }
+  
+  .m-icon {
+    margin-right: 15px;
+  }
+  
+  .svg-icon {
+    width: 30px;
+    height: 30px;
+  
+    background: #444791;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .mainpage-input {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+  
+  
+  
+  .input-icon {
+    height: 30px;
+    width: 30px;
+    color: #3d3b3b;
+  }
+  
+  .input-feild {
+    margin-left: 25px;
+    outline: none;
+    border: none;
+    padding:3px 12px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: none;
+    margin: 0px;
+    width: 80%;
+    border-radius: 5px;
+    height: 34px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Web", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    /* padding: 0px 12px 2px; */
+    /* box-sizing: border-box;
+    border-radius: 0px;
+    border: none;
+    background: none transparent;
+    color: rgb(66, 66, 66);
+    width: 100%;
+    min-width: 0px;
+    text-overflow: ellipsis;
+    outline: 0px;
+    height: 32px; */
+  }
+  
+  .user {
+    background-color: white;
+    height: 75px;
+  }
+
+
+   .input-feild-date {
+    width: 10%;
+    border-radius: 5px;
+    margin-left: 25px;
+    outline: none;
+    border: none;
+  }
+  
+  .input-feild-date2 {
+    width: 10%;
+    border-radius: 5px;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+  }
+
+  .arrow{
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  
+ .text-area{
+  border-radius: 20px;
+  outline: none;
+  border: none;
+ 
+
+ }
+ .attendees{
+  background-color: white;
+  margin-left: 25px;
+  outline: none;
+  border: none;
+  padding:3px 12px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: none;
+  margin: 0px;
+  width: 80%;
+  border-radius: 5px;
+  height: 34px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Web", sans-serif;
+  -webkit-font-smoothing: antialiased;
+ }
+ .editor{
+  margin-bottom: 100px;
+  height:200px;
+  
+	overflow-x:hidden;
+		overflow-y: hidden;
+ }
+ .datetime-input{
+  outline: none;
+  margin-left: -8px;
+
+ }
+
+
+ .date-time{
+  margin-left: -8px;
+  margin:0px 8px ;
+ border: none;
+ border-radius: 5px;
+    height: 34px;
+    width: 15rem;
+    padding: 0px 10px 2px ;
+    padding-right: 2rem;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    text-overflow: ellipsis;
+   
+ }
+ .arrow-image{
+  height: 18px;
+ }
+ .multiselect-border{
+  border: none;
+ }
+ .datepicker{
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: flex;
+  text-align: start;
+  
+  /* justify-content: center;
+  text-align: center; */
+ 
+ }
